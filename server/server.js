@@ -6,6 +6,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const path = require('path');
+const connectDB =require('./config/db.js')
 
 // Import routes
 const postRoutes = require('./routes/posts');
